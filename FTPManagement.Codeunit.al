@@ -18,7 +18,7 @@ codeunit 50100 FTPdocument
     begin
         Url := 'ftp://ftp.drivehq.com/Test.txt';
         WebClient := WebClient.WebClient;
-        WebClient.Credentials := NetworkCredential.NetworkCredential('bertverbeek', 'Koterweg42');
+        WebClient.Credentials := NetworkCredential.NetworkCredential('bertverbeek', 'password');
         Stream := WebClient.OpenRead(Url);
         MemoryStream := MemoryStream.MemoryStream;
         Stream.CopyTo(MemoryStream);
@@ -38,7 +38,7 @@ codeunit 50100 FTPdocument
         Filename: Text;
     begin
         FTPWebRequest := FTPWebRequest.Create('ftp://ftp.drivehq.com/Test.txt');
-        FTPWebRequest.Credentials := NetworkCredential.NetworkCredential('bertverbeek', 'Koterweg42');
+        FTPWebRequest.Credentials := NetworkCredential.NetworkCredential('bertverbeek', 'password');
         FTPWebRequest.UseBinary := TRUE;
         FTPWebRequest.UsePassive := TRUE;
         FTPWebRequest.KeepAlive := TRUE;
