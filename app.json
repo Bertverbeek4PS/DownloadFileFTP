@@ -1,0 +1,27 @@
+{
+  "id": "6865d4f5-052a-4aea-9d8b-393eadcf564a",
+  "name": "FTP Connector",
+  "publisher": "4PS B.V.",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "17.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://DownloadFile.com/help/",
+  "showMyCode": true,
+  "runtime": "6.0",
+  "target": "OnPrem"
+}

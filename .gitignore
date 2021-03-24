@@ -1,0 +1,13 @@
+node_modules
+dist
+.alpackages
+package-lock.json
+AppSourceCop.json
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+translations/*.g.xlf
+src/temp/*
+.snapshots

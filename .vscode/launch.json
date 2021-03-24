@@ -1,0 +1,16 @@
+{
+    "version":  "0.2.0",
+    "configurations":  [
+                           {
+                               "breakOnError":  true,
+                               "serverInstance":  "TrashFeature",
+                               "type":  "al",
+                               "server":  "http://localhost",
+                               "launchBrowser":  true,
+                               "name":  "TrashFeature",
+                               "port":  7149,
+                               "authentication":  "Windows",
+                               "request":  "launch"
+                           }
+                       ]
+}

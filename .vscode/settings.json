@@ -1,0 +1,12 @@
+{
+    "al.enableCodeAnalysis":  false,
+    "al.incrementalBuild":  true,
+    "al.enableCodeActions":  false,
+    "al.assemblyProbingPaths":  [
+                                    "C:\\Program Files\\Microsoft Dynamics 365 Business Central\\170\\Service",
+                                    "C:\\WINDOWS\\Microsoft.NET\\assembly",
+                                    "C:\\WINDOWS\\assembly"
+                                ],
+    "al.packageCachePath":  ".alpackages",
+    "editor.codeLens":  false
+}
